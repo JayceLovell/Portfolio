@@ -47,8 +47,8 @@
                     <div class="dropup">
                         <button class="btn btn-lg btn-block btn-default dropdown-toggle" type="button" data-toggle="dropdown">Assignments<span class="caret"></span></button>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-header">Web Design Assignemtns</li>
-                            <li><a href="http://studentweb.cencol.ca/wlovell2/Assignment2/Assignment2.html">Assignment2</a></li>
+                            <li class="dropdown-header">Web Design Assignments</li>
+                            <li><a href="Assets/Web_Design/Assignment2/Assignment2.html">Assignment2</a></li>
                             <li><a href="http://studentweb.cencol.ca/wlovell2/Assignment3/Assignment3.html">Assignment3</a></li>
                             <li><a href="http://studentweb.cencol.ca/wlovell2/Assignment4/Assignment4.html">Assignment4</a></li>
                             <li><a href="http://studentweb.cencol.ca/wlovell2/Term_Project/Home.html">End of Semester project</a></li>

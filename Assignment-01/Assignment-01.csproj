@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -127,6 +128,10 @@
     <Content Include="Assets\Images\thumbmail.jpg" />
     <Content Include="Assets\Images\Video Streaming.JPG" />
     <Content Include="Assets\Images\Zoro_Game.JPG" />
+    <Content Include="Assets\Web_Design\Assignment2\Assignment2.html" />
+    <Content Include="Assets\Web_Design\Assignment2\earth.jpg" />
+    <Content Include="Assets\Web_Design\Assignment2\earth1.jpg" />
+    <Content Include="Assets\Web_Design\Assignment2\globe.png" />
     <Content Include="Bio%28AboutMe%29.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
