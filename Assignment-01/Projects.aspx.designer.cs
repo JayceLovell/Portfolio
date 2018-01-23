@@ -74,23 +74,5 @@ namespace Assignment_01 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl RunGamePlayCounter;
-        
-        /// <summary>
-        /// RunGame_DownloadPC control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button RunGame_DownloadPC;
-        
-        /// <summary>
-        /// RunGameDownloadCounter control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl RunGameDownloadCounter;
     }
 }

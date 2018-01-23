@@ -39,8 +39,6 @@
                     <asp:Button ID="RunGame_SourceCode" runat="server" OnClick="RunGame_SourceCode_Click" CssClass="btn btn-success" UseSubmitBehavior="false" Text="Source Code" ToolTip="Click to view source code"/>
                     <asp:Button ID="RunGame_BroswerPlay" runat="server" OnClick="RunGame_BroswerPlay_Click" CssClass="btn btn-danger" UseSubmitBehavior="false" Text="Click Here To Play" ToolTip="Play game in Broswer" />
                     <span runat="server" class="label label-danger" id="RunGamePlayCounter"></span>
-                    <asp:Button ID="RunGame_DownloadPC" runat="server" OnClick="RunGame_DownloadPC_Click" CssClass="btn btn-warning" UseSubmitBehavior="false" Text="Donwload Game for PC" ToolTip="Download Game to your computer" />
-                    <span runat="server" class="label label-warning" id="RunGameDownloadCounter"></span>
                 </div>
                 <div class="Project_Div">
                  <h3>Other Projects i have done in the past.</h3>
@@ -66,9 +64,6 @@
                             <li role="separator" class="divider"></li>
                             <li class="dropdown-header">MVC</li>
                             <li><a href="https://fantasyburgers.azurewebsites.net">Fantasy Burgers</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Game Programming</li>
-                            <li><a href="Assets/Files/KillerPain.zip" download="KillerPain.zip" title="Download KillerPain Game">KillerPain</a></li>
                         </ul>
                     </div>
                 </div>

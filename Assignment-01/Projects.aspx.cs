@@ -18,7 +18,7 @@ namespace Assignment_01
         {
             if (!IsPostBack)
             {
-                for (int i = 2; i <= 6; i++)
+                for (int i = 2; i <= 5; i++)
                 {
                     Debug.WriteLine("loop " + i);
                     // connect to EF DB
@@ -37,9 +37,6 @@ namespace Assignment_01
                                 break;
                             case 5:
                                 RunGamePlayCounter.InnerText = getcounter.Amount.ToString() + " Plays";
-                                break;
-                            case 6:
-                                RunGameDownloadCounter.InnerText = getcounter.Amount.ToString() + " Downloads";
                                 break;
                         }
                     }

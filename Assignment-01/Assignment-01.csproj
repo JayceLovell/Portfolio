@@ -148,13 +148,11 @@
     <Content Include="Services.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Assets\files\resume.pdf" />
-    <Content Include="Assets\files\Run!!!_Data.zip" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="Assets\files\KillerPain.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
