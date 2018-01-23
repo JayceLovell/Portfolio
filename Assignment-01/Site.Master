@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment_01.Site" %>
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<!-- Name: Waynell Lovell -->
+<!-- Date: September 14, 2016-->
+<!-- Site.Master file -->
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!--user-scalable=no for when i want to remove zooming-->
+    <meta name="description" content="This is Waynell Lovell's Website Site/Portfolio. Can see which Projects,Services,Contact info and All other information" />
+    <meta name="google-site-verification" content="1FtfD67iesS5Ou-bjHn9syBNp42UDjKriaWjXoeZV4A" />
+    <meta property="og:image" content="http://waynelllovell.azurewebsite.net/Assets/Images/thumbmail.jpg"/>
+    <meta property="og:title" content="Waynell Lovell's WebSite" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="This is Waynell Lovell's Website Can see which Projects,Services,Contact info and All other information" />    <link rel="shortcut icon" type="image/x-icon" href="Assets/Images/Logo.ico"/>
+    <meta property="og:url" content="http://waynelllovell.azurewebsites.net/" />
+    <meta property="og:site_name" content="Waynell Lovell's Website" />
+    <link rel="author" href="https://plus.google.com/u/0/117808560131324107060" />
+    <title></title>
+    <!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header role="navigation">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" style="padding-top:1px;" href="Default.aspx">
+                            <img src="Assets/Images/logo.png" />
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                            <li id="projects" runat="server"><a href="Projects"><i class="fa fa-briefcase" aria-hidden="true"></i> Projects</a></li>
+                            <li id="services" runat="server"><a href="Services"><i class="fa fa-tasks" aria-hidden="true"></i> Services</a></li>
+                            <li id="about" runat="server"><a href="Bio(AboutMe)"><i class="fa fa-info-circle" aria-hidden="true"></i> About Me!</a></li>
+                            <li id="contact" runat="server"><a href="Contact"><i class="fa fa-question" aria-hidden="true"></i> Contact Me</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+            </header>
+
+        <!-- Main Content -->
+        <div role="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer Bar -->
+        <footer role="contentinfo">
+            <nav class="navbar navbar-inverse navbar-fixed-bottom">
+                    <h4>&copy; Waynell Lovell's Website</h4>
+            </nav>
+        </footer>
+    </form>
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>

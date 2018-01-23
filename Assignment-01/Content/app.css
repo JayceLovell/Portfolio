@@ -1,0 +1,85 @@
+﻿/* custom css goes here*/
+
+/*  Name: Waynell Lovell
+    Student ID: 300833478
+    Date: September 18, 2016
+    app.css file */
+
+body {
+    padding-bottom: 70px;
+    background-color:black;
+    background-image: url('../Assets/Images/background.jpg');
+    background-repeat:no-repeat;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    background-size:100% 100%;
+}
+footer{
+    color:white;
+}
+.jumbotron{
+    background:transparent;
+}
+ .left_img{
+     float:left;
+     width:27%;
+     margin-right:3%;
+     padding:4px;
+ }
+ .btn{
+     background:transparent;
+
+ }
+ .Default_imgs{
+     display: inline-block;
+     float: left;
+     width: 50%;
+ }
+ .Default_imgs img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius:10px;
+    opacity:0.5;
+}
+ .right{
+     float:right;
+ }
+ hr{
+     border: none;
+    height: 20px;
+    background-color: #333;
+ }
+ .links{
+     color:white;
+     border-bottom:1px solid white;
+ }
+ textarea{
+     resize:vertical;
+     color:black;
+    border-radius:5px;
+ }
+ table input{
+     color:black;
+     border-radius:5px;
+ }
+ table,.Project_Div{
+     color:black;
+     margin-left:auto; 
+     margin-right:auto;
+     background-color:grey;
+     opacity:0.7;
+ }
+ table,td,.Project_Div{
+    border:1px solid white;
+     border-radius:6px;
+ }
+ .center,.Project_Div{
+     text-align:center;
+ }
+ .Project_Div img{
+     max-width:100%;
+     margin:auto;
+    display:block;
+ }
